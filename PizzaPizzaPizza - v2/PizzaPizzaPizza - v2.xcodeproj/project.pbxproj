@@ -14,6 +14,7 @@
 		B199C7941F74C19F0068E252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B199C7921F74C19F0068E252 /* LaunchScreen.storyboard */; };
 		B199C79C1F74C2140068E252 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B199C79B1F74C2140068E252 /* HomeModel.swift */; };
 		B199C79E1F74C3790068E252 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B199C79D1F74C3790068E252 /* Location.swift */; };
+		B199C7A01F74E7720068E252 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B199C79F1F74E7720068E252 /* OrderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B199C7951F74C19F0068E252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B199C79B1F74C2140068E252 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		B199C79D1F74C3790068E252 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = ../Location.swift; sourceTree = "<group>"; };
+		B199C79F1F74E7720068E252 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B199C79D1F74C3790068E252 /* Location.swift */,
 				B199C7891F74C19F0068E252 /* AppDelegate.swift */,
 				B199C78B1F74C19F0068E252 /* ViewController.swift */,
+				B199C79F1F74E7720068E252 /* OrderViewController.swift */,
 				B199C78D1F74C19F0068E252 /* Main.storyboard */,
 				B199C7901F74C19F0068E252 /* Assets.xcassets */,
 				B199C7921F74C19F0068E252 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B199C78C1F74C19F0068E252 /* ViewController.swift in Sources */,
+				B199C7A01F74E7720068E252 /* OrderViewController.swift in Sources */,
 				B199C78A1F74C19F0068E252 /* AppDelegate.swift in Sources */,
 				B199C79E1F74C3790068E252 /* Location.swift in Sources */,
 				B199C79C1F74C2140068E252 /* HomeModel.swift in Sources */,

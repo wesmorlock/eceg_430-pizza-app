@@ -76,9 +76,11 @@ class HomeModel: NSObject {
                 locArray.append(loc)
             }
             
-            // TODO: Pass location array back to delegate
-            
-            delegate?.itemsDownloaded(locations: locArray)
+            DispatchQueue.main.async {
+                // TODO: Pass location array back to delegate
+                
+                self.delegate?.itemsDownloaded(locations: locArray)
+            }
         }
         catch {
             print("There was an error")

@@ -39,6 +39,12 @@ class ViewController: UIViewController, HomeModelDelegate, UITableViewDataSource
         tableView.reloadData()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // set the orderToDisplay property of the OrderViewController
+        let orderVC = segue.destination as! OrderViewController
+        orderVC.orderToDisplay = tableView.selected
+    }
+    
     // MARK: - UITableView Delegate Methods
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -55,6 +61,8 @@ class ViewController: UIViewController, HomeModelDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        performSegue(withIdentifier: "GoToOrder", sender: self)
         
     }
     
